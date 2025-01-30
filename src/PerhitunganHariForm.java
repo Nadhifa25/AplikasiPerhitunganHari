@@ -42,7 +42,7 @@ public class PerhitunganHariForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Aplikasi Perhitungan Umur", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Verdana", 0, 14))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Aplikasi Perhitungan Hari", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Verdana", 0, 14))); // NOI18N
         jPanel1.setName("Aplikasi Perhitungan Hari "); // NOI18N
 
         bulanComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Bulan-", "Januari", "Februari", "Maret", "April", "Mei", "Juni ", "Juli", "Agustus", "September", "Oktober", "November", "Desember" }));
@@ -104,7 +104,7 @@ public class PerhitunganHariForm extends javax.swing.JFrame {
                             .addComponent(bulanComboBox, 0, 116, Short.MAX_VALUE))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(76, Short.MAX_VALUE)
+                        .addContainerGap(94, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(hasilLabel)
@@ -117,7 +117,6 @@ public class PerhitunganHariForm extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(informasiLabel)
                                 .addGap(180, 180, 180)))))
-                .addGap(18, 18, 18)
                 .addComponent(LocalDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(70, 70, 70))
         );
